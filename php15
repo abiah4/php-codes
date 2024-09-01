@@ -1,0 +1,14 @@
+<?php
+
+$adult = false;
+
+
+if ($adult == true){
+  echo "you may enter this site";
+}
+else{
+  echo "you must be an adult to enter";
+  
+}
+
+?>

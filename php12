@@ -1,0 +1,12 @@
+<?php
+
+$age = 19;
+$citizen = true;
+
+if(!$age >= 18 && !$citizen){
+    echo "you cannnot vote";
+}
+else {
+    echo "you can vote";
+}
+?>

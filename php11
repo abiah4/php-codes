@@ -1,0 +1,16 @@
+<?php
+
+
+$child = false;
+$senior = true;
+$ticket = null;
+
+if($child || $senior){
+    $ticket = 10;
+}
+else{
+    $ticket = 15;
+}
+
+echo"your tikect price is \${$ticket}";
+?>

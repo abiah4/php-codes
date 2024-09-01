@@ -1,0 +1,18 @@
+<?php
+
+//ArrayIndexOutOfBoundsException
+
+$foods = array("apple", "orange", "banana", "cocount");
+
+//$foods[0]= "pineapple";
+//array_push($foods, "pineapple", "kiwi");
+//array_pop($foods);
+//array_shift($foods);
+//$foods = array_reverse($foods);
+
+foreach ($foods as $food){
+  echo $food;
+  
+}
+
+?>

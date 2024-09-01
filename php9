@@ -1,0 +1,31 @@
+<?php
+
+$date = date("1");
+
+switch ($date){
+    case "Monday";
+    echo "i hate mondays";
+    break;
+    case "Tuseday";
+    echo "its taco Tuesday!";
+    break;
+    case "Wendesday";
+    echo "The work week is half over!!";
+    break;
+    case "Thursday";
+    echo "its almost the weekend";
+    break;
+    case "Friday";
+    echo "Thr weekend is here!!!";
+    break;
+    case "Saturday";
+    echo "time to party";
+    break;
+    case "Sunday";
+    echo "Time to relax";
+    break;
+    
+    default:
+        echo "{$date} is not a day";
+}
+?>

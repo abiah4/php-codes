@@ -1,0 +1,19 @@
+<?php
+
+$temp  = 1000;
+$cloudy = false;
+
+if($temp < 0 || $temp > 30){
+    echo "the weather is good.";
+}
+else{
+    echo "the weather is bad.";
+}
+
+if(!$cloudy){
+    echo "it's sunny.";
+}
+else{
+    echo "it's cloudy.";
+}
+?>
