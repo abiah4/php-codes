@@ -1,0 +1,16 @@
+<?php
+
+//function
+
+function happy_birthday($first_name , $age){
+  echo "happy birthday dear {$first_name}";
+  echo "happy birthday to uuuu";
+  echo "happy birthday {$first_name}";
+  echo "you are {$age} years old!!";
+  
+  
+}
+happy_birthday("spongebob" , 30);
+happy_birthday("Nora" , 32);
+happy_birthday("ahmed" , 44);
+?>
