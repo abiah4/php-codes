@@ -1,0 +1,19 @@
+<?php
+
+//function
+
+function sayHello($name= 'shaun', $time = 'morning'){
+    echo "good $time $name";
+}
+
+//sayHello('mario');
+sayHello('yousi', ' night');
+
+function formatProduct($product){
+    //echo "{$product ['name']} costs {$product ['price']}to buy";
+    return "{$product ['name']} costs {$product ['price']}to buy";
+}
+
+//$formatted = formatProduct(['name'=>'gold star', 'price'=>20]);
+//echo $formatted;
+?>
