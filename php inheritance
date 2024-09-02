@@ -1,0 +1,27 @@
+<?php
+
+//inheritance
+
+class Person{
+    var $name;
+    var $username;
+    function profile(){
+        echo "name: " . $this->name . "\n";
+        echo "username: " . $this->username;
+        
+    }
+}
+
+class user extends Person{
+    
+}
+
+class Admin extends Person{
+    
+}
+$user1= new User();
+$user1->name="Ali";
+$user1->username = "@ali33";
+$user1->profile();
+
+?>
