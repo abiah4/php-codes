@@ -1,0 +1,16 @@
+//$name = "Hasan Naser";
+//$x = strlen($name);
+//echo $x;
+
+//$x = "take your dreams seriously";
+//$y = str_word_count($x);
+//echo $y;
+
+//$x = "Hello, I'm Hassan Naaser";
+//$y = strpos($x,"a");
+//echo $y;
+
+$x= "Take ur dreams seriously";
+//echo $x;
+$new_x = str_replace("dreams","action",$x);
+echo $new_x;
